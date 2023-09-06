@@ -1,0 +1,22 @@
+.article-container {
+  width: 80%;
+  min-height: 100vh;
+  margin: 30px auto;
+  background-color: red;
+
+  .title {
+    color: blue;
+    font-size: 22px;
+  }
+
+  .items-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .item {
+      width: 200px;
+      height: 200px;
+      background-color: #f5f5f5;
+    }
+  }
+}
